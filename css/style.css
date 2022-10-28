@@ -9,6 +9,7 @@
   }
 body {
   font-family: "Noto Sans", sans-serif;
+  margin: 0;
 }
 .container {
   max-width: 1440px;
@@ -25,6 +26,14 @@ body {
   top: 0;
   z-index: 2;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+  transition: background-color 0.2s;
+}
+.navbar-light {
+  background-color: #fff;
+  color: #292D33
+}
+.navbar-light .header-logo-path {
+  fill: #292D33;
 }
 .header {
   padding-top: 94px;
@@ -95,15 +104,6 @@ body {
   flex-shrink: 0;
   height: 100%;
 }
-  * {
- all: unset; 
- display: revert;
-}
-
-*, *::before, *::after{ 
-   box-sizing: border-box;
-}
-
 .header-button {
   height: 100%;
 }
