@@ -127,7 +127,7 @@ body {
 }
 .navbar-button .button-icon {
 display: none;
-fill: #fff;
+fill: #3A71D1;
 }
 .header-button {
   height: 100%;
@@ -420,6 +420,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 160%;
 color: #292D33;
-
+}
+.button-icon {
+  fill: #5C8EE6;
 }
 }
