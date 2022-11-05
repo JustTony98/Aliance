@@ -13,7 +13,56 @@
   <title>Aliance Production</title>
 </head>
 <body>
+  <div class="mobile-menu">
+    <ul class="mobile-menu-nav">
+      <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">О компании</a>
+      </li>
+      <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Контрактное производство</a>
+        <ul class="mobile-submenu">
+          <li class="mobile-submenu-item">
+            <a class="mobile-submenu-link" href="#" class="">Автомобильная химия</a>
+          </li>
+          <li class="mobile-submenu-item">
+            <a class="mobile-submenu-link" href="#" class="">Бытовая химия</a>
+          </li>
+          <li class="mobile-submenu-item">
+            <a class="mobile-submenu-link" href="#" class="">Дезинфицирующие средства</a>
+          </li>
+        </ul>
+      </li>
+      <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+      </li>
+      <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Новости</a>
+      </li>
+      <li class="mobile-menu-navmobile-menu-nav-item"><a href="#" class="mobile-menu-link">Контакты</a>
+      </li>
+    </ul>
+    <a href="+79523814772" class="mobile-phone">+7 (952) 381-47-72</a>
+    <div class="mobile-info">
+      <svg class="button-icon" width="24" height="24">
+        <use href="img/sprite.svg#phone"></use>
+      </svg>
+      <address class="mobile-info-address">
+        г. Мосвка, Холодильный пер. 4к1с8
+      </address>
+    </div>
+    <!-- /.mobile-info -->
+  <div class="mobile-info">
+    <svg class="button-icon" width="24" height="24">
+      <use href="img/sprite.svg#mail"></use>
+    </svg>
+    <a href="mailto:tonydm9886@gmail.com" class="mobile-info-email">
+     tonydm9886@gmail.com
+    </a >
+  </div>
+  <!-- /.mobile-info -->
+</div>
   <nav class="navbar">
+    <a href="#" class="mobile-menu-toggle">
+      <div class="mobile-menu-line"></div>
+      <div class="mobile-menu-line"></div>
+      <div class="mobile-menu-line"></div>
+    </a>
     <a href="./" class="header-logo">
       <svg class="logo-svg" width="140" height="50">
         <use href="img/sprite.svg#logo-light"></use>
@@ -32,13 +81,18 @@
       </li>
     </ul>
     <div class="header-phone">
-      <svg class="logo-svg" width="24" height="24">
+      <svg class="phone-icon" width="24" height="24">
         <use href="img/sprite.svg#phone"></use>
       </svg>
       <a href="tel:+79523814772" class="header-phone-link">+7 (952) 381-47-72</a>
     </div>
     <!-- /.header-phone -->
-    <button class="navbar-button button">Получить консультацию</button>
+    <button class="navbar-button button">
+      <svg class="button-icon" width="24" height="24">
+        <use href="img/sprite.svg#phone"></use>
+      </svg>
+      <span class="button-text">Получить консультацию</span>
+    </button>
   </nav>
   <!-- /.navbar -->
  <header class="header header-image">
