@@ -44,12 +44,12 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.slider-button-prev',
     },
     breakpoints: {
-      // when window width is >= 320px
+      
       576: {
         slidesPerView: 2,
         centeredSlides: true,
       },
-      // when window width is >= 480px
+      
       768: {
         slidesPerView: 3,
         
@@ -63,5 +63,4 @@ const swiper = new Swiper('.swiper', {
       },
     },
   });
-
   

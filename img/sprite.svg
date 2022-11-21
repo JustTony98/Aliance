@@ -56,5 +56,12 @@
 <symbol  viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="arrow-prev">
 <path d="M10.1616 4.68629L10.8687 5.3934L4.41405 11.848L33 11.8479L32.9997 12.8482L4.42381 12.848L10.8687 19.2929L10.1616 20L3.00959 12.848H2.99993V12.8383L2.50473 12.3431L10.1616 4.68629Z" fill="white"/>
 </symbol>
-
+<symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" id="Left">
+    <rect width="60" height="40" fill="#5C8EE6"></rect>
+    <path d="M23.468 13.9056L24.0572 14.4948L18.6784 19.8737L42.5 19.8736L42.4997 20.7071L18.6865 20.707L24.0572 26.0777L23.468 26.667L17.508 20.707H17.4999V20.6989L17.0873 20.2863L23.468 13.9056Z" fill="white"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" id="Right">
+    <rect width="60" height="40" fill="#5C8EE6"></rect>
+    <path d="M36.532 26.0944L35.9428 25.5052L41.3216 20.1263L17.5 20.1264L17.5003 19.2929L41.3135 19.293L35.9428 13.9223L36.532 13.333L42.492 19.293H42.5001V19.3011L42.9127 19.7137L36.532 26.0944Z" fill="white"></path>
+  </symbol>
 </svg>
