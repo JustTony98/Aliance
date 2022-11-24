@@ -186,7 +186,9 @@ fill: #3A71D1;
   display: none;
   height: 44px;
 }
-
+.swiper-steps {
+  overflow: hidden;
+  }
 .slider-button-prev, 
 .slider-button-next {
   height: 100%;
