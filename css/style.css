@@ -42,6 +42,9 @@ body {
 .phone-icon {
   fill: #5C8EE6;
 }
+.logo {
+  display: none;
+}
 .logo-svg {
   width: 9rem; 
   height: 3.125rem;
@@ -188,7 +191,7 @@ fill: #3A71D1;
 }
 .swiper-steps {
   overflow: hidden;
-  }
+}
 .slider-button-prev, 
 .slider-button-next {
   height: 100%;
